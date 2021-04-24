@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Drag and Drop File Upload</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="text" value="Insert URL Here" class="URL">
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+        <header>My App</header>
+        <ul>
+            <li><a href="#"><i class="fas fa-user"></i>People</a></li>
+            <li><a href="current"><i class="fas fa-book"></i>Learning</a></li>
+            <li><a href="#"><i class="fas fa-cog"></i>Setting</a></li>
+
+        </ul>
+    </div>
+    <div class="drop-zone">
+        <span class="drop-zone__prompt">Upload</span>
+        <input type="file" name="myFile" class="drop-zone__input">
+    </div>
+
+    <script src="main.js"></script>
+</body>
